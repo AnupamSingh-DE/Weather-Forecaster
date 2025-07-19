@@ -1,0 +1,105 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #4a90e2;
+    padding: 1rem;
+    border-bottom: 2px solid #3a7bd5;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand, .nav-link {
+    color:rgb(25%, 50%, 30%);
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    color:red;
+}
+
+/* Search input */
+#cityInput {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border: 2px solid #4a90e2;
+    border-radius: 5px;
+}
+
+#searchBtn {
+    width: 100%;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+}
+
+#searchBtn:hover {
+    background-color: #3a7bd5;
+}
+
+/* Weather Card */
+.weather-card {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background: #4a90e2;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.weather-card:hover {
+    transform: translateY(-10px);
+    background-color: #3a7bd5;
+}
+
+/* Footer */
+footer {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0.5rem;
+    }
+
+    #cityInput {
+        font-size: 1rem;
+        padding: 0.3rem;
+    }
+
+    #searchBtn {
+        font-size: 1rem;
+        padding: 0.3rem;
+    }
+}

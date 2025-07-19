@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #3AA6B9;">
+    <nav class="navbar navbar-expand-lg" style="background-color: bisque;">
+        <strong><a class="navbar-brand" href="#">Weather Dashboard</a></strong>
+    </nav>
+
+    <div class="container mt-5" style="color: skyblue;">
+        <div class="row mb-3">
+            <div class="col-md-6 offset-md-3">
+                <input type="text" id="cityInput" class="form-control" placeholder="Enter city name">
+                <button id="searchBtn" class="btn btn-primary mt-2">Search</button>
+            </div>
+        </div>
+
+        <div id="weatherContainer" class="row">
+            <!-- Current weather and forecast cards will be inserted here -->
+             
+        </div>
+    </div>
+
+    <footer class="text-center mt-5">
+        <strong><p>$$ Anupam Singh</p></strong>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
